@@ -1,0 +1,83 @@
+.tabla{
+    overflow-x: auto;
+}
+.tabla table{
+    background: #fff;
+    width: 95%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: auto;
+    -webkit-box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.75);
+    -o-box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.75);
+    -ms-box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.75);
+}
+table thead{
+    background: #22CAA6;
+    color: #fff;
+    border-bottom: 3px solid #0C9E7F;
+}
+table th,td{
+    padding: 15px;
+}
+table tr td a{
+    text-decoration: none;
+    font-size: 20px;
+}
+table tr td a .icofont-ui-delete{
+    background: #E05252;
+    padding: 7px;
+    border-radius: 5px;
+    color: #fff;
+}
+table tr td a .icofont-ui-edit{
+    background: #528EE0;
+    padding: 7px;
+    border-radius: 5px;
+    color: #fff;
+}
+table tr:nth-child(even){
+    background: #ddd;
+}
+.buscar{
+    display: inline-flex;
+    padding: 0;
+    margin-left: 5%;
+    width: 30%;
+}
+.buscar input{
+    padding: 10px;
+    width: 100%;
+    border:0;
+    -webkit-box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.75);
+    -o-box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.75);
+    -ms-box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.75);
+}
+.buscar button{
+    padding: 10px;
+    cursor: pointer;
+    border:0;
+    -webkit-box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.75);
+    -o-box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.75);
+    -ms-box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.75);
+}
+@media(max-width: 768px){
+    .buscar{
+    width: 50%;
+}
+@media(max-width: 576px){
+    .buscar{
+    width: 80%;
+}
+}

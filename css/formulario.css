@@ -1,0 +1,229 @@
+.formulario{
+    width: 100%;
+    padding: 15px;
+}
+.formulario form{
+    background: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    border-bottom: 4px solid #4DF0CD;
+     -webkit-box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.45);
+    -moz-box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.45);
+    box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.45);
+    -o-box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.45);
+    box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.45);
+    -ms-box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.45);
+    box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.45);
+}
+.formulario label.titulo{
+    display: block;
+    text-align: center;
+    background: #4DF0CD;
+    padding: 15px;
+    border-radius: 10px 10px 0px 0px;
+    color: #fff;
+    font-weight: bold;
+}
+.formulario input:focus{
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
+}
+.formulario input{
+    padding: 10px;
+    width: 100%;
+    margin-bottom:10px;
+    border-radius:5px;
+    border:solid 1px #BFBDC7;
+    margin-top:10px;
+}
+.formulario input[type="date"]{
+    padding: 8px;
+}
+.formulario input[type="time"]{
+    padding: 7px;
+}
+.formulario small{
+    position:relative;
+    padding: 0px 0px 10px 0px;
+}
+.formulario small:hover::before{
+    width: 100%;
+}
+.formulario small:hover input{
+    border:0;
+}
+.formulario small:hover select{
+    border:0;
+}
+.formulario small:before {
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: #149DFA;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: width 0.3s;
+    -webkit-transition:width 0.3s;
+    -ms-transition:width 0.3s;
+    -o-transition:width 0.3s;
+    -moz-transition:width 0.3s;
+}
+.formulario select{
+    padding: 9px;
+    width: 100%;
+    margin-bottom:10px;
+    border-radius:5px;
+    border:solid 1px #BFBDC7;
+    margin-top:10px;
+}
+.formulario button{
+    background: #149DFA;
+    color: #fff;
+    padding: 10px;
+    border:0;
+    margin-left: 5%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+.formulario button:hover{
+    background: #4DF0CD;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+.ocultar{
+    display: none;
+}
+.primero{
+    display: inline-flex;
+    width: 100%;
+    padding: 0px 10px 0px 10px;
+}
+.nom{
+    width: 45%;
+    margin: 5px 0px -10px 5px;
+}
+.ape{
+    width: 45%;
+    margin: 5px 0px -10px 5px;
+}
+.sex{
+    width: 45%;
+    margin: 5px 0px -10px 5px;
+}
+.segundo{
+    display: inline-flex;
+    width: 100%;
+    padding: 10px;
+}
+.tel{
+    width: 45%;
+    margin: 5px 0px -10px 5px;
+}
+.dir{
+    width: 45%;
+    margin: 5px 0px -10px 5px;
+}
+.hora{
+    width: 45%;
+    margin: 5px 0px -10px 5px;
+}
+.tercero{
+    display: inline-flex;
+    width: 100%;
+    padding: 10px;
+}
+.fech{
+    width: 45%;
+    margin: -10px 0px 0px 5px;
+}
+.cor{
+    width: 45%;
+    margin: -10px 0px 0px 5px;
+}
+.medi{
+    width: 45%;
+    margin: -10px 0px 0px 5px;
+}
+.cuarto{
+    display: inline-flex;
+    width: 100%;
+    padding: 10px;
+}
+.medi1{
+    width: 45%;
+    margin: -15px 0px 0px 5px;
+}
+.esp{
+    width: 45%;
+    margin: -15px 0px 0px 5px;
+}
+@media(max-width:768px){
+    .formulario .primero{
+        display: block;
+        padding: 0px 10px 0px 10px;
+    }
+    .formulario .nom{
+        width: 100%;
+    }
+    .formulario .ape{
+        width: 100%;
+    }
+    .formulario .sex{
+        width: 100%;
+    }
+    .formulario .segundo{
+        display: block;
+        padding: 0px 10px 0px 10px;
+    }
+    .formulario .tel{
+        width: 100%;
+    }
+    .formulario .dir{
+        width: 100%;
+    }
+    .formulario .hora{
+        width: 100%;
+    }
+    .formulario .tercero{
+        display: block;
+        padding: 0px 10px 0px 10px;
+    }
+    .formulario .fech{
+        width: 100%;
+        margin: 0px 0px 0px 5px;
+    }
+    .formulario .cor{
+        width: 100%;
+        margin: 0px 0px 0px 5px;
+    }
+    .formulario .medi{
+        width: 100%;
+        margin: 0px 0px 0px 5px;
+    }
+    .formulario .cuarto{
+        display: block;
+    }
+    .formulario .medi1{
+        width: 100%;
+        margin: 0px 0px 0px 5px;
+    }
+    .formulario .esp{
+        width: 100%;
+        margin: 0px 0px 0px 5px;
+    }
+}

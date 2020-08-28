@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+form input:focus{
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
+}
+form{
+	background: #fff;
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    border-bottom: 4px solid #4DF0CD;
+     -webkit-box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.45);
+    -moz-box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.45);
+    box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.45);
+    -o-box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.45);
+    box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.45);
+    -ms-box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.45);
+    box-shadow: 2px 2px 19px -8px rgba(0,0,0,0.45);
+}
+form label.titulo{
+    display: block;
+    text-align: center;
+    background: #4DF0CD;
+    padding: 15px;
+    border-radius: 10px 10px 0px 0px;
+    color: #fff;
+    font-weight: bold;
+}
+form label.j{
+	margin-left: 4%;
+	margin-bottom: 5px;
+	display: flex;
+}
+form input{
+	width: 80%;
+	padding: 10px;
+	-webkit-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    -moz-transition: 0.5s;
+    border-radius: 0px 10px 10px 0px;
+    border: 0;
+    border: solid 1px #E4E4E4;
+
+}
+form input:focus{
+	border-radius: 0px 10px 10px 0px;
+	border: 0;
+	border: solid 1px #149DFA;
+	-webkit-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    -moz-transition: 0.5s;
+}
+form button{
+    background: #F65757;
+    color: #fff;
+    padding: 10px;
+    border:0;
+    margin-left: 5%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+form button:hover{
+    background: #4DF0CD;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+.user{
+	display: inline-flex;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+.user span{
+	margin-left: 4%;
+	background:#E4E4E4;
+	color: #6B6B6B;
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 10px 0px 0px 10px;
+}
+@media(max-width: 1100px){
+	form{
+		width: 50%;
+	}
+}
+@media(max-width: 620px){
+	form{
+		width: 80%;
+	}
+}
